@@ -42,11 +42,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'host' => env('DB_HOST', 'rm-bp151u0my0d667cngio.mysql.rds.aliyuncs.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'yslty'),
+            'username' => env('DB_USERNAME', 'root'),
+            'password' => env('DB_PASSWORD', 'Liu062958'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',

@@ -1,5 +1,5 @@
 <?php
-$origin = ['http://www.yslty.com','http://localhost:8080'];
+$origin = ['http://www.yslty.com','http://localhost:8080','http://sss.yslty.com'];
 $AllowOrigin = 'http://www.yslty.com';
 if(in_array($_SERVER["HTTP_ORIGIN"],$origin))
 {
