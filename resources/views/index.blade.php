@@ -73,6 +73,15 @@
 				<option value="1">学习历程</option>
 				<option value="2">心情分享</option>
 			</select>
+			<select name="" id="son_type">
+				<option value="0">html</option>
+				<option value="1">css</option>
+				<option value="2">js</option>
+				<option value="3">jquery</option>
+				<option value="4">vue</option>
+				<option value="5">react</option>
+				<option value="6">小程序</option>
+			</select>
 			<input type="text" id="art_jianjie" placeholder="简介">
 		</div>
 		<script id="container" name="content" type="text/plain" style="width: 95%;height: 600px;margin: 0 auto;"></script>

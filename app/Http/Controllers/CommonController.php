@@ -14,7 +14,7 @@ class CommonController extends Controller
     public static function getHead()
     {
         $data = DB::table('article')->orderBy('id','desc')->get()->toArray();
-		// dump($data);
+		dump($data).die;
         return $data;
     }
 	// 文章展示
@@ -86,5 +86,13 @@ class CommonController extends Controller
 	public function reg(Request $request){
 		
 	}
-	
+	// 生日
+	public function BirthdayCake(){
+		return view('home.index');
+	}
+	//客户案例页面
+	public function city()
+	{
+		
+	}
 }

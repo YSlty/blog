@@ -14,3 +14,4 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('BirthdayCake.html','CommonController@BirthdayCake');//生日
